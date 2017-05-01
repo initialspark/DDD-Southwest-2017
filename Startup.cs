@@ -26,11 +26,6 @@ namespace Demo
         {
             // Add framework services.
             services.AddMvc();
-            services.AddNodeServices(options =>
-            {
-                options.LaunchWithDebugging = true;
-                options.DebuggingPort = 6060;
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,10 +37,6 @@ namespace Demo
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-                {
-                    HotModuleReplacement = true
-                });
             }
             else
             {
@@ -59,10 +50,6 @@ namespace Demo
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-
-                routes.MapSpaFallbackRoute(
-                    name: "spa-fallback",
-                    defaults: new { controller = "Home", action = "Index" });
             });
         }
     }
