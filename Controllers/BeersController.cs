@@ -11,23 +11,23 @@ namespace Demo.Controllers
         {
             return new List<Beer>(){ 
                 new Beer{
-                    Title = "Punk IPA",
+                    Title = "Crunk IPA",
                     Description = "POST MODERN CLASSIC - SPIKY. TROPICAL. HOPPY.",
-                    Abv = "5.6%",
+                    Abv = "6.6%",
                     ImagePath = "punkipa.png",
                     IsInStock = true
                 },
                 new Beer{
-                    Title = "Dead Pony Club",
+                    Title = "Live Pony",
                     Description = "WEST COAST KICKS - CITRUSY. ZESTY. BRIGHT.",
-                    Abv = "3.8%",
+                    Abv = "3.6%",
                     ImagePath = "dpc.png",
                     IsInStock = true
                 },
                 new Beer{
-                    Title = "5am Saint",
+                    Title = "9am Saint",
                     Description = "BITTER SWEET CHAOS - MALTY. FRUITY. BITE.",
-                    Abv = "5%",
+                    Abv = "5.2%",
                     ImagePath = "5am.png"
                 },
             };
