@@ -7,3 +7,14 @@ Building modern web applications with JavaScript (also known as single-page apps
 In this session, we’ll build a single page application with Angular to demonstrate the core features of JavaScript Services using ASP.NET Core. Highlights will include:​ Performance and SEO benefits of utilising server-side rendering with your Angular application
 
 Using webpack dev middleware to streamline the build process and enhance the development experience with features such as hot module replacement. The principles presented will be relevant to other JavaScript frameworks and will provide you with insight into potential use cases for running JavaScript on the server.
+
+#Run
+
+- npm install
+- dotnet restore
+- dotnet build
+- dotnet watch run
+
+#Slides
+
+https://speakerdeck.com/initialspark/dddsouthwest-javascriptservices-building-single-page-applications-with-asp-dot-net-core
