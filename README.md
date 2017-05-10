@@ -8,13 +8,13 @@ In this session, we’ll build a single page application with Angular to demonst
 
 Using webpack dev middleware to streamline the build process and enhance the development experience with features such as hot module replacement. The principles presented will be relevant to other JavaScript frameworks and will provide you with insight into potential use cases for running JavaScript on the server.
 
-#Run
+## Run
 
 - npm install
 - dotnet restore
 - dotnet build
 - dotnet watch run
 
-#Slides
+## Slides
 
 https://speakerdeck.com/initialspark/dddsouthwest-javascriptservices-building-single-page-applications-with-asp-dot-net-core
